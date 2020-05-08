@@ -14,6 +14,7 @@ private const val TAG = "MainActivity"
 private const val INITIAL_TIP_PERCENT = 15
 class MainActivity : AppCompatActivity() {
 
+    //oncreate method
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
